@@ -13,11 +13,14 @@
 
 ## How you are going to make it? What kind of technology are you going to use?
 
-* 2 IR-Sensors
+* Arduino MEGA
+* PCBWay Smartcar shield
+* DC motor x 4
+* IR-Sensor x 2
   - For line following and possible color recognition
   - For possible traffic related signals such as red lines for stop signs
-* Sonar Sensor
+* Ultrasonic Sensor - HC-SR04
   - For obstacle avoidance
-* Bluetooth Receiver
+* Bluetooth Module
   - For phone control
   - For possible traffic related signals such as stop signs
