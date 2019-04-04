@@ -7,7 +7,7 @@
 
 ## Why will you make it? What problem does it solve?
 **Automated Traffic**
-  - Can be implemented in different areas.
+  - Can be implemented in different areas
     - Airports, Warehouses, Public Transport, Restaurants, etc.
   - Removing human errors in traffic related situations
 
