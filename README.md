@@ -14,10 +14,10 @@
 ## How you are going to make it? What kind of technology are you going to use?
 
 * 2 IR-Sensors
-	For line following and possible color recognition
-	For possible traffic related signals such as red lines for stop signs
+  - For line following and possible color recognition
+  - For possible traffic related signals such as red lines for stop signs
 * Sonar Sensor
-	For obstacle avoidance
+  - For obstacle avoidance
 * Bluetooth Receiver
-	For Phone Control
-	For possible traffic related signals such as stop signs
+  - For phone control
+  - For possible traffic related signals such as stop signs
