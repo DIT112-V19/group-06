@@ -33,8 +33,10 @@ void setup() {
 }
 
 void loop() {
+ 
+ int curDistance = front.getDistance();
 
- if(front.getDistance() < STOP_DISTANCE && front.getDistance() > 0){
+ if(curDistance < STOP_DISTANCE && curDistance > 0){
   
   car.setSpeed(0);
   
