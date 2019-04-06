@@ -1,16 +1,18 @@
 #include <Smartcar.h>
 
+//Initialize different Pin value
 int leftMotorForwardPin = 8;
-
 int leftMotorBackwardPin = 10;
-
 int leftMotorSpeedPin = 9;
-
 int rightMotorForwardPin = 12;
-
 int rightMotorBackwardPin = 13;
-
 int rightMotorSpeedPin = 11;
+const int TRIGGER_PIN = 6; //D6
+const int ECHO_PIN = 7; //D7
+
+//Initialize magic value
+const unsigned int MAX_DISTANCE = 100;
+const int STOP_DISTANCE = 20;
 
 BrushedMotor leftMotor(leftMotorForwardPin,leftMotorBackwardPin, leftMotorSpeedPin);
 
@@ -18,32 +20,26 @@ BrushedMotor rightMotor(rightMotorForwardPin, rightMotorBackwardPin, rightMotorS
 
 DifferentialControl control(leftMotor, rightMotor);
 
-SimpleCar car(control);
-
-const int TRIGGER_PIN = 6; //D6
-const int ECHO_PIN = 7; //D7
-const unsigned int MAX_DISTANCE = 100000;
 SR04 front(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 
+SimpleCar car(control);
 
 void setup() {
-Serial.begin(9600);
+ 
+ Serial.begin(9600);
+ 
  car.setSpeed(100);
  
-
-
-
 }
 
 void loop() {
+ 
+ int curDistance = front.getDistance();
+
+ if(curDistance < STOP_DISTANCE && curDistance > 0){
   
-Serial.println(front.getDistance());
-
-if(front.getDistance() < 20){
-car.setSpeed(0);
-
-}else{
-  car.setSpeed(100);
+  car.setSpeed(0);
+  
   }
-
+  
 }
