@@ -1,9 +1,8 @@
 # group-06
 
 ## What you are going to make?
-* **Primary:** Line Following Robot with Obstacle Avoidance
-* **Secondary:** Phone control
-* **Optional:** Color Coordination / Voice Control
+* **Primary:** Line Following Robot with Obstacle Avoidance and Simple Controls using Phone
+* **Secondary/Optional:** Color Coordination / Voice Control / Advanced Controls for Phone
 
 ## Why will you make it? What problem does it solve?
 **Automated Traffic**
