@@ -15,4 +15,4 @@ assignees: ''
 **So that:**
 
 ### Acceptance Criteria:
-**And I know I am done when:**
+**I know I am done when:**
