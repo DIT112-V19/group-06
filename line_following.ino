@@ -17,27 +17,38 @@ BrushedMotor rightMotor(rightMotorForwardPin, rightMotorBackwardPin, rightMotorS
 
 DifferentialControl control(leftMotor, rightMotor);
 SimpleCar car(control);
+
+
+
 void setup()
 {
   Serial.begin(9600);
   pinMode(LEFT_SENSORPIN,INPUT);
   pinMode(CENTER_SENSORPIN,INPUT);
   pinMode(RIGHT_SENSORPIN,INPUT);
-
-  car.setSpeed(50);
+car.setSpeed(30);
+ 
 }
  
 void loop()
-{
-  // read input from sensors
+{// read input from sensors
   byte leftSensor=digitalRead(LEFT_SENSORPIN);
   byte centerSensor=digitalRead(CENTER_SENSORPIN);
   byte rightSensor=digitalRead(RIGHT_SENSORPIN);
+car.setSpeed(30);
+car.setAngle(0);
+    while(leftSensor == 1){
+      car.setAngle(-90);
+     break;
+    }
+   
+    while(rightSensor == 1){
+      car.setAngle(90);
+     break;
+    }
+    delay(30);
+  
 
- if(leftSensor == 1){
-  car.setAngle(-10);
-  }else if(rightSensor == 1){
-    car.setAngle(10);
-  }
+    
 
 }
