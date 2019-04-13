@@ -1,9 +1,10 @@
 #include <Smartcar.h>
+//Initialize sensor pin value
 int LEFT_SENSORPIN = 5;
 int CENTER_SENSORPIN = 6;
 int RIGHT_SENSORPIN=  7;
 
- //Initialize different Pin value
+//Initialize different motor pin value
 int leftMotorForwardPin = 8;
 int leftMotorBackwardPin = 10;
 int leftMotorSpeedPin = 9;
@@ -16,9 +17,8 @@ BrushedMotor leftMotor(leftMotorForwardPin,leftMotorBackwardPin, leftMotorSpeedP
 BrushedMotor rightMotor(rightMotorForwardPin, rightMotorBackwardPin, rightMotorSpeedPin);
 
 DifferentialControl control(leftMotor, rightMotor);
+
 SimpleCar car(control);
-
-
 
 void setup()
 {
@@ -26,29 +26,34 @@ void setup()
   pinMode(LEFT_SENSORPIN,INPUT);
   pinMode(CENTER_SENSORPIN,INPUT);
   pinMode(RIGHT_SENSORPIN,INPUT);
-car.setSpeed(30);
- 
+  car.setSpeed(30);
 }
  
 void loop()
 {// read input from sensors
-  byte leftSensor=digitalRead(LEFT_SENSORPIN);
-  byte centerSensor=digitalRead(CENTER_SENSORPIN);
-  byte rightSensor=digitalRead(RIGHT_SENSORPIN);
-car.setSpeed(30);
-car.setAngle(0);
-    while(leftSensor == 1){
-      car.setAngle(-90);
-     break;
-    }
-   
-    while(rightSensor == 1){
-      car.setAngle(90);
-     break;
-    }
-    delay(30);
-  
+  byte l=digitalRead(LEFT_SENSORPIN);
+  byte c=digitalRead(CENTER_SENSORPIN);
+  byte r=digitalRead(RIGHT_SENSORPIN);
 
+  if(l == 1 && c == 0 && r == 1){
+    car.setAngle(0);
+    car.setSpeed(20);
+  }else if(l == 0 && c == 0 && r == 1){
+    car.setAngle(-90);
+    car.setSpeed(30);
+  }else if(l == 0 && c == 1 && r == 1){
+    car.setAngle(-90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 0 && r == 0){
+    car.setAngle(90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 1 && r == 0){
+    car.setAngle(90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 1 && r == 1){
     
-
+  }else if(l == 0 && c == 0 && r == 0){
+    car.setAngle(0);
+    car.setSpeed(0);
+  }
 }
