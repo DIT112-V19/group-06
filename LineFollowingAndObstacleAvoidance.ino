@@ -1,8 +1,8 @@
 #include <Smartcar.h>
 //Initialize sensor pin value
-int LEFT_SENSORPIN = 5;
-int CENTER_SENSORPIN = 6;
-int RIGHT_SENSORPIN=  7;
+int LEFT_SENSORPIN = 49;
+int CENTER_SENSORPIN = 51;
+int RIGHT_SENSORPIN=  50;
 
 //Initialize different motor pin value
 int leftMotorForwardPin = 8;
@@ -11,8 +11,8 @@ int leftMotorSpeedPin = 9;
 int rightMotorForwardPin = 12;
 int rightMotorBackwardPin = 13;
 int rightMotorSpeedPin = 11;
-const int TRIGGER_PIN = 24; 
-const int ECHO_PIN = 22; 
+const int TRIGGER_PIN = 52; 
+const int ECHO_PIN = 53; 
 const unsigned int MAX_DISTANCE = 30;
 const int STOP_DISTANCE = 20;
 
