@@ -5,14 +5,14 @@ const int bSpeed = -70; //70% of the full speed backward
 const int lDegrees = -75; //degrees to turn left
 const int rDegrees = 75; //degrees to turn right
 
-int TXD = 11;
-int RXD = 10;
+BrushedMotor leftMotor(8, 10, 9);
+BrushedMotor rightMotor(12, 13, 11);
+DifferentialControl control(leftMotor, rightMotor);
 
-Car car(10,11);
+SimpleCar car(control);
 
 void setup() {
-  Serial3.begin(9600);
-  car.begin(9600); //initialize the car using the encoders and the gyro
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -20,8 +20,8 @@ void loop() {
 }
 
 void handleInput() { //handle serial input if there is any
-  if (Serial3.available()) {
-    char input = Serial3.read(); //read everything that has been received so far and log down the last entry
+  if (Serial.available()) {
+    char input = Serial.read(); //read everything that has been received so far and log down the last entry
     switch (input) {
       case 'l': //rotate counter-clockwise going forward
         car.setSpeed(fSpeed);
