@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9155079e1c8ff9148e79be32d6eb7b2c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/erik/.gradle/caches/transforms-2/files-2.1/1261d7ed0dd4dd58bfd07c41e5ef997e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/10730e25a6cdd2ef173cd67274048316/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/fcac6abfaab0dc557a650e4aebc1732d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/eacad574f083ca24407b99934e401a40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9761fe3a4f4a3d6d634824886251c097/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8260592f46ce626aa6d0b492e99fba4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/72766e40bd89ffca0f3e0db31f0a1809/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/a54433052f067fa5b9144160897d042e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/4a0d56a4fedd267a4e3e592aeaf10c27/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8fee2e4f0d579dd2da644ce3072f33cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/ec9264e70314ad8eab36b8e6244e2bd8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/d0adbc04affe6d498de6ffff7efbb0f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/23004562d9eff593cab134c5eb83fd08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b02aaafc0f44a29f006f4f7bf97ed645/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/203668ca1f30b62d4085eb4e0138d8d2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/febee602b9c8af1d8c429b0d20dd4d08/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/64f1221e32d6d8028982a5ac5498ff7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8608d950ec2431de2e5120b7681b3ffb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/895df7cd9e4364a82a5739ce65c07c91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b20d08f6c768e00143a00fe0a71194e7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/6936425fc0657ff9b47ce309c0759a35/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/2511a181b20bf0eff6bccf5001648504/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/8a0d52707a9d62971e5822ca3ac71375/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/dcd4b2fe16435ce4ff739a5830925a40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/561e1efeed71578ebe32793d90b3b330/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/erik/.gradle/caches/transforms-2/files-2.1/1261d7ed0dd4dd58bfd07c41e5ef997e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/erik/.gradle/caches/transforms-2/files-2.1/1261d7ed0dd4dd58bfd07c41e5ef997e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/203668ca1f30b62d4085eb4e0138d8d2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/203668ca1f30b62d4085eb4e0138d8d2/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.newspeechrproject.MainActivity
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9155079e1c8ff9148e79be32d6eb7b2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9155079e1c8ff9148e79be32d6eb7b2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/erik/.gradle/caches/transforms-2/files-2.1/1261d7ed0dd4dd58bfd07c41e5ef997e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/erik/.gradle/caches/transforms-2/files-2.1/1261d7ed0dd4dd58bfd07c41e5ef997e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/10730e25a6cdd2ef173cd67274048316/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/10730e25a6cdd2ef173cd67274048316/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/fcac6abfaab0dc557a650e4aebc1732d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/fcac6abfaab0dc557a650e4aebc1732d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/eacad574f083ca24407b99934e401a40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/eacad574f083ca24407b99934e401a40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9761fe3a4f4a3d6d634824886251c097/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/9761fe3a4f4a3d6d634824886251c097/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8260592f46ce626aa6d0b492e99fba4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8260592f46ce626aa6d0b492e99fba4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/72766e40bd89ffca0f3e0db31f0a1809/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/72766e40bd89ffca0f3e0db31f0a1809/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/a54433052f067fa5b9144160897d042e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/a54433052f067fa5b9144160897d042e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/4a0d56a4fedd267a4e3e592aeaf10c27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/4a0d56a4fedd267a4e3e592aeaf10c27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8fee2e4f0d579dd2da644ce3072f33cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8fee2e4f0d579dd2da644ce3072f33cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/ec9264e70314ad8eab36b8e6244e2bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/ec9264e70314ad8eab36b8e6244e2bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/d0adbc04affe6d498de6ffff7efbb0f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/d0adbc04affe6d498de6ffff7efbb0f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/23004562d9eff593cab134c5eb83fd08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/23004562d9eff593cab134c5eb83fd08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b02aaafc0f44a29f006f4f7bf97ed645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b02aaafc0f44a29f006f4f7bf97ed645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b99af43136b4124c26a4ecc7a4f59e89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/203668ca1f30b62d4085eb4e0138d8d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/203668ca1f30b62d4085eb4e0138d8d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/febee602b9c8af1d8c429b0d20dd4d08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/febee602b9c8af1d8c429b0d20dd4d08/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/64f1221e32d6d8028982a5ac5498ff7a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/64f1221e32d6d8028982a5ac5498ff7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8608d950ec2431de2e5120b7681b3ffb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/8608d950ec2431de2e5120b7681b3ffb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/895df7cd9e4364a82a5739ce65c07c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/895df7cd9e4364a82a5739ce65c07c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b20d08f6c768e00143a00fe0a71194e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/b20d08f6c768e00143a00fe0a71194e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/6936425fc0657ff9b47ce309c0759a35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/6936425fc0657ff9b47ce309c0759a35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/2511a181b20bf0eff6bccf5001648504/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/2511a181b20bf0eff6bccf5001648504/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/8a0d52707a9d62971e5822ca3ac71375/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/8a0d52707a9d62971e5822ca3ac71375/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/dcd4b2fe16435ce4ff739a5830925a40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/erik/.gradle/caches/transforms-2/files-2.1/dcd4b2fe16435ce4ff739a5830925a40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/561e1efeed71578ebe32793d90b3b330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/erik/.gradle/caches/transforms-2/files-2.1/561e1efeed71578ebe32793d90b3b330/AndroidManifest.xml:20:5-44
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/erik/Desktop/NewSpeechRProject/app/src/main/AndroidManifest.xml
