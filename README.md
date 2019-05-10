@@ -1,4 +1,4 @@
-# group-06
+# group-06 [![Build Status](https://travis-ci.org/DIT112-V19/group-06.svg?branch=master)](https://travis-ci.org/DIT112-V19/group-06)
 
 ## What you are going to make?
 * **Primary:** Line Following Robot with Obstacle Avoidance and Simple Controls using Phone
