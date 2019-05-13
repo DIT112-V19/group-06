@@ -22,7 +22,9 @@ SimpleCar car(control);
 
 void setup()
 {
+   //start serial
   Serial.begin(9600);
+  //define pin modes
   pinMode(LEFT_SENSORPIN,INPUT);
   pinMode(CENTER_SENSORPIN,INPUT);
   pinMode(RIGHT_SENSORPIN,INPUT);
