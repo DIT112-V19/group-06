@@ -44,9 +44,7 @@ before_script:
     - adb shell input keyevent 82 &
     # Set `gradlew` as executable
     - chmod +x $TRAVIS_BUILD_DIR/NewSpeechProject/gradlew
-    - cp $TRAVIS_BUILD_DIR/NewSpeechProject/gradle.properties.no.git $TRAVIS_BUILD_DIR/NewSpeechProject/gradle.properties
-    - sed -i "s/mykey/$API_KEY/g" $TRAVIS_BUILD_DIR/NewSpeechProject/gradle.properties
-    - sed -i "s/mysecret/$API_SECRET/g" $TRAVIS_BUILD_DIR/NewSpeechProject/gradle.properties
+    
 
 
 before_install:
