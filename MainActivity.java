@@ -64,25 +64,7 @@ public class MainActivity extends AppCompatActivity {
         requestCodeForEnableBT = 1;
         pairedDevices = adapter.getBondedDevices();
 
-
-
-
-
-
-
-
-
-
-
-
-
         enableBluetooth();
-
-
-
-
-
-
 
     }
 
@@ -111,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
             if (btSocket != null) {
                 try {
                     btSocket.getOutputStream().write(carChar);
-                    requestCode = null; 
 
                 } catch (IOException e) {
                     Toast.makeText(getApplicationContext(), "Error" + getDeviceAddress(), Toast.LENGTH_SHORT).show();
@@ -163,32 +144,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-/*
-    public void ConnectBTDevice() {
-       /* //String address = getDeviceAddress();
-        String name = getDeviceName();
-        for (BluetoothDevice device : pairedDevices)
-            if (deviceName.equals(device.getName())) {
-                Toast.makeText(getApplicationContext(), "SamrtX is available ", Toast.LENGTH_SHORT).show();
-                result = device;
-            }
-    try {
-        BluetoothDevice car = adapter.getRemoteDevice(btAddress);
-        btSocket = car.createRfcommSocketToServiceRecord(uuid);
-        btSocket.connect();
-        Toast.makeText(getApplicationContext(), "Connected to: " + name, Toast.LENGTH_SHORT).show();
-/*
-        btSocket = result.createRfcommSocketToServiceRecord(uuid);
-        btSocket.connect();
-        Toast.makeText(getApplicationContext(),"Connected",Toast.LENGTH_SHORT).show();
-*/
 
-/*
-    }catch (IOException e) {
-        Toast.makeText(getApplicationContext(), "Error while connecting to: " + name, Toast.LENGTH_SHORT).show();
-    }
-    }
-*/
+   /* public void getInput(){
+
+        if()
+
+
+    }*/
 
     public void getSpeechInput(View view) {
 
@@ -207,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-       while (requestCode = 10); 
+       while (requestCode == 10) 
                 if (resultCode == RESULT_OK && data != null) {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     if (result.get(0).contains("go") || result.get(0).contains("forward")) {
@@ -220,7 +182,12 @@ public class MainActivity extends AppCompatActivity {
                         run();
                     } else if (result.get(0).contains("stop") || result.get(0).contains("halt") || result.get(0).contains("break")) {
                         txvResult.setText("Stopping");
+                        setCarChar('s');
                         run();
+                    }else if (result.get(0).contains("go lines") || result.get(0).contains("follow lines") || result.get(0).contains("follow")) {
+                            txvResult.setText("Following line forward");
+                            setCarChar('i');
+                            run();
                     } else {
                         Toast.makeText(this, "Invalid Command. Please try again. :)", Toast.LENGTH_SHORT).show();
                     }
