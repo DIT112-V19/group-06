@@ -23,6 +23,33 @@ void handleInput() { //handle serial input if there is any
   if (Serial.available()) {
     char input = Serial.read(); //read everything that has been received so far and log down the last entry
     switch (input) {
+      case 'a':
+        
+        byte l=digitalRead(LEFT_SENSORPIN);
+        byte c=digitalRead(CENTER_SENSORPIN);
+        byte r=digitalRead(RIGHT_SENSORPIN);
+        if(l == 1 && c == 0 && r == 1){
+    car.setAngle(0);
+    car.setSpeed(20);
+  }else if(l == 0 && c == 0 && r == 1){
+    car.setAngle(-90);
+    car.setSpeed(30);
+  }else if(l == 0 && c == 1 && r == 1){
+    car.setAngle(-90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 0 && r == 0){
+    car.setAngle(90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 1 && r == 0){
+    car.setAngle(90);
+    car.setSpeed(30);
+  }else if(l == 1 && c == 1 && r == 1){
+    
+  }else if(l == 0 && c == 0 && r == 0){
+    car.setAngle(0);
+    car.setSpeed(0);
+  }
+
       case 'l': //rotate counter-clockwise going forward
         car.setSpeed(fSpeed);
         car.setAngle(lDegrees);
