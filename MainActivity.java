@@ -30,8 +30,7 @@ import java.util.UUID;
 public class MainActivity extends AppCompatActivity {
 
     private TextView txvResult;
-
-
+        
     BluetoothAdapter adapter;
 
 
@@ -109,40 +108,22 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
-        if (carChar == 'f') {
-
-
             if (btSocket != null) {
                 try {
                     btSocket.getOutputStream().write(carChar);
+                    requestCode = null; 
+
                 } catch (IOException e) {
                     Toast.makeText(getApplicationContext(), "Error" + getDeviceAddress(), Toast.LENGTH_SHORT).show();
-                }
             }
-        }
-        else if (carChar == 'b') {
-            if (btSocket != null) {
-                try {
-                    btSocket.getOutputStream().write(carChar);
-                } catch (IOException e) {
-                    Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
-                }
-            }
-        }
-
         try {
 
             btSocket.close();
         } catch (IOException e2) {
             e2.printStackTrace();
         }
-
-
-
-
+     }   
     }
-
 
     public String getDeviceName() {
         String deviceName = "";
@@ -184,7 +165,6 @@ public class MainActivity extends AppCompatActivity {
     }
 /*
     public void ConnectBTDevice() {
-
        /* //String address = getDeviceAddress();
         String name = getDeviceName();
         for (BluetoothDevice device : pairedDevices)
@@ -193,13 +173,10 @@ public class MainActivity extends AppCompatActivity {
                 result = device;
             }
     try {
-
-
         BluetoothDevice car = adapter.getRemoteDevice(btAddress);
         btSocket = car.createRfcommSocketToServiceRecord(uuid);
         btSocket.connect();
         Toast.makeText(getApplicationContext(), "Connected to: " + name, Toast.LENGTH_SHORT).show();
-
 /*
         btSocket = result.createRfcommSocketToServiceRecord(uuid);
         btSocket.connect();
@@ -210,12 +187,7 @@ public class MainActivity extends AppCompatActivity {
     }catch (IOException e) {
         Toast.makeText(getApplicationContext(), "Error while connecting to: " + name, Toast.LENGTH_SHORT).show();
     }
-
-
-
     }
-
-
 */
 
     public void getSpeechInput(View view) {
@@ -235,8 +207,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        switch (requestCode) {
-            case 10:
+       while (requestCode = 10); 
                 if (resultCode == RESULT_OK && data != null) {
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     if (result.get(0).contains("go") || result.get(0).contains("forward")) {
@@ -253,13 +224,6 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         Toast.makeText(this, "Invalid Command. Please try again. :)", Toast.LENGTH_SHORT).show();
                     }
-
-                }
-
-
-
+            }
         }
-
-
     }
-}
