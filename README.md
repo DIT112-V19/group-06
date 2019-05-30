@@ -1,4 +1,4 @@
-## README Content: 
+## README Content: [![Build Status](https://travis-ci.org/DIT112-V19/group-06.svg?branch=master)](https://travis-ci.org/DIT112-V19/group-06) 
 1.0 Introduction
 2.0 General information
   - 2.1 System overview
