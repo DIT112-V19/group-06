@@ -1,16 +1,16 @@
-##README Content: 
+## README Content: 
 1.0 Introduction
 2.0 General information
-2.1 System overview
-2.2 How does it work?
-2.3 Hardware list
-2.4 Software list
+  - 2.1 System overview
+  - 2.2 How does it work?
+  - 2.3 Hardware list
+  - 2.4 Software list
 3.0 User manual
-3.1 Installation
-3.2 Start up
+  - 3.1 Installation
+  - 3.2 Start up
 4.0 Developers 
 
-##1.0 Introduction
+## 1.0 Introduction
 This is a repository including the code and listed hardware needed to complete this Smartcar. The Smartcar Shield makes it possible for the user to make various types of robotic applications without spending enormous amount of time and money. It opens for a pedagogic learning experience. It suits people with lower experience in programming as well as more educated persons due to its open source, object oriented design and high level API making it easier to program. 
 
 ## 2.0 General information: 
