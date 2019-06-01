@@ -13,6 +13,8 @@
 ## 1.0 Introduction
 This is a repository including the code and listed hardware needed to complete this Smartcar. The Smartcar Shield makes it possible for the user to make various types of robotic applications without spending enormous amount of time and money. It opens for a pedagogic learning experience. It suits people with lower experience in programming as well as more educated persons due to its open source, object oriented design and high level API making it easier to program. 
 
+-> demo video: https://www.youtube.com/watch?v=DHMe0ubszqI 
+
 ## 2.0 General information: 
 This product is developed to optimize work in different areas such as Airports, Warehouse, Public transport, Restaurants etc. The system is developed to reduce the human fault factor and ensure a safe workplace for everyone.
 
