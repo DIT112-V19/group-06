@@ -5,6 +5,11 @@ const int bSpeed = -70; //70% of the full speed backward
 const int lDegrees = -75; //degrees to turn left
 const int rDegrees = 75; //degrees to turn right
 
+//initialize constants for speed control
+const int LOW_SPEED = 20; 
+const int MED_SPEED = 40;
+const int HIGH_SPEED = 60; 
+
 //Initialize IR sensor pin value
 const int LEFT_SENSORPIN = 49;
 const int CENTER_SENSORPIN = 51;
@@ -24,6 +29,8 @@ int rightMotorSpeedPin = 11;
 char input;
 int duration;
 float distance;
+
+int SPEED = 30;
 
 
 //Initialize magic value
@@ -71,25 +78,33 @@ void handleInput() { //handle serial input if there is any
         break;
 
       case 'l': //rotate counter-clockwise going forward
-        car.setSpeed(fSpeed);
+        car.setSpeed(SPEED);
         car.setAngle(lDegrees);
         break;
       
       case 'r': //turn clock-wise
-        car.setSpeed(fSpeed);
+        car.setSpeed(SPEED);
         car.setAngle(rDegrees);
         break;
       
       case 'f': //go ahead
-        car.setSpeed(fSpeed);
+        car.setSpeed(SPEED);
         car.setAngle(0);
         break;
       
       case 'b': //go back
-        car.setSpeed(bSpeed);
+        car.setSpeed(-SPEED);
         car.setAngle(0);
         break;
+
+      case 'p':
+           SPEED = 30;
+           break;
       
+      case 'o':
+           SPEED = 60;
+           break;
+         
       default: //if you receive something that you don't know, just stop
         car.setSpeed(0);
         car.setAngle(0);
@@ -102,31 +117,31 @@ void followLine(){
     car.setSpeed(30);
     
   do{
-   
 
   byte l=digitalRead(LEFT_SENSORPIN);
   byte c=digitalRead(CENTER_SENSORPIN);
   byte r=digitalRead(RIGHT_SENSORPIN);
   if(l == 1 && c == 0 && r == 1){
     car.setAngle(0);
-    car.setSpeed(30);
+    car.setSpeed(28);
   }else if(l == 0 && c == 0 && r == 1){
-      car.setAngle(-75);
-      car.setSpeed(30);
+      car.setAngle(-68);
+      car.setSpeed(28);
   }else if(l == 0 && c == 1 && r == 1){
-        car.setAngle(-75);
-              car.setSpeed(30);
+        car.setAngle(-68);
+              car.setSpeed(28);
   }else if(l == 1 && c == 0 && r == 0){
-                car.setAngle(75);
-                car.setSpeed(30);
+                car.setAngle(68);
+                car.setSpeed(28);
   }else if(l == 1 && c == 1 && r == 0){
-                  car.setAngle(75);
-                  car.setSpeed(30);
+                  car.setAngle(68);
+                  car.setSpeed(28);
   }else if(l == 1 && c == 1 && r == 1){
                     
   }else if(l == 0 && c == 0 && r == 0){
                       car.setAngle(0);
                       car.setSpeed(0);
+                      break;
   }
    if (Serial.available() > 0) {
     input = Serial.read();}}while(input == 'a');
